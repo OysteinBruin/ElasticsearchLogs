@@ -1,0 +1,12 @@
+﻿services:
+  elasticserachlogs.api:
+    image: elasticserachlogs.api
+    build:
+      context: .
+      dockerfile: src/ElasticserachLogs.Api/Dockerfile
+
+  elasticserachlogs.api-1:
+    image: elasticserachlogs.api-1
+    build:
+      context: .
+      dockerfile: src/ElasticserachLogs.Api/Dockerfile
